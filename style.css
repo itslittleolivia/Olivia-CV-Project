@@ -38,7 +38,7 @@ body {
 
 .profile-picture {
     border-radius: 50%;
-    width: 190px;
+    width: 194px;
     height: 188px;
     box-shadow: 0 4px 6px 0 black;
     transition: ease-in-out .4s;
@@ -214,3 +214,107 @@ body {
 
 /* Work Experience Section*/
 
+.work h2 {
+    font-size: 23px;
+    font-weight: 700;
+    color: #cce3de;
+    text-align: center;
+    padding-bottom: 65px;
+
+}
+
+.work-present h3, 
+.SH-key-achievements-present {
+    font-size: 17px;
+    font-weight: 600;
+    max-width: 1200px;
+    margin: 2px 0 2px;
+    color: #00abf0;
+    padding: 0 8.3%;
+}
+
+.work-present p {
+    font-size: 15px;
+    max-width: 1200px;
+    margin: 10px 0 10px;
+    color: #ededed;
+    padding: 0 8.3%;
+    padding-bottom: 10px;
+}
+
+.list-SH-achievements {
+    font-size: 13px;
+    max-width: 1200px;
+    margin: 10px 0 10px;
+    color: #ededed;
+    padding: 0 8.3%;
+    padding-bottom: 45px;
+}
+
+.finance-assistant h3 {
+    font-size: 17px;
+    font-weight: 600;
+    max-width: 1200px;
+    margin: 2px 0 2px;
+    color: #00abf0;
+    padding: 0 8.3%;
+}
+
+.finance-assistant p {
+    font-size: 15px;
+    max-width: 1200px;
+    margin: 10px 0 10px;
+    color: #ededed;
+    padding: 0 8.3%;
+    padding-bottom: 45px;
+}
+
+.sparkfoundry-AM h3 {
+    font-size: 17px;
+    font-weight: 600;
+    max-width: 1200px;
+    margin: 2px 0 2px;
+    color: #00abf0;
+    padding: 0 8.3%;
+} 
+
+.sparkfoundry-AM p {
+    font-size: 15px;
+    max-width: 1200px;
+    margin: 10px 0 10px;
+    color: #ededed;
+    padding: 0 8.3%;
+    padding-bottom: 0px;
+}
+
+.Key {
+    padding-top: 10px;
+}
+
+.list-SF-achievements {
+    font-size: 13px;
+    max-width: 1200px;
+    margin: 10px 0 10px;
+    color: #ededed;
+    padding: 0 8.3%;
+    padding-bottom: 45px;
+}
+
+.sparkfoundry-junior h3 {
+    font-size: 17px;
+    font-weight: 600;
+    max-width: 1200px;
+    margin: 2px 0 2px;
+    color: #00abf0;
+    padding: 0 8.3%;
+    background: #081b29;
+}
+
+.list-SF-achievements-junior {
+    font-size: 13px;
+    max-width: 1200px;
+    margin: 10px 0 10px;
+    color: #ededed;
+    padding: 0 8.3%;
+    padding-bottom: 45px;
+}
