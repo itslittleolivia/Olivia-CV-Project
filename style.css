@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppins" , sans-serif;
+    font-family: "poppins 15" , sans-serif;
     font-weight: 300;
     font-style: normal;
 }
@@ -30,10 +30,14 @@ body {
 .logo {
     position: relative;
     font-size: 20px;
-    color: #cce3de;
-    text-decoration: none;
+    color: whitesmoke;
     font-weight: 600;
     text-align: left;
+    text-decoration: none;
+    font-family: "poppins" , sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 .profile-picture {
@@ -52,14 +56,17 @@ body {
     float: right;
 }
 
-.header a:hover {
-    color: yellowgreen;
-    transition: .3s;
+.header a:hover { 
+    color: gold;
+    text-decoration: none;
 }
 
 .navbar a {
+    font-family: "jersey 15" , sans-serif;
+    font-weight: 200;
+    font-style: normal;
     font-size: 18px;
-    color: #cce3de;
+    color: gold;
     text-decoration: none;
     font-weight: 500px;
     margin-left: 20px;
@@ -68,7 +75,8 @@ body {
 
 .navbar a:hover, 
 .navbar a:active {
-    color: yellowgreen;
+    color: pink;
+    transition-duration: 4s;
 }
 
 .About {
@@ -76,6 +84,7 @@ body {
     display: flex;
     align-items: center;
     padding: 0 8.3%;
+    
 }
 
 .About-content {
@@ -83,9 +92,12 @@ body {
 }
 
 .About-content h1 {
-    font-size: 40px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.2;
+    font-family: "jersey 15" , sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 70px;
 }
 
 .About-content h3 {
@@ -178,10 +190,9 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 52px;
+    height: 52px;
     background: transparent;
-    border: 2px solid #00abf0;
     border-radius: 50%;
     font-size: 50px;
     color: #00abf0;
@@ -215,12 +226,14 @@ body {
 /* Work Experience Section*/
 
 .work h2 {
-    font-size: 23px;
+    font-family: "jersey 15" , sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 40px;
     font-weight: 700;
-    color: #cce3de;
+    color: gold;
     text-align: center;
     padding-bottom: 65px;
-
 }
 
 .work-present h3, 
@@ -318,3 +331,7 @@ body {
     padding: 0 8.3%;
     padding-bottom: 45px;
 }
+
+
+
+
